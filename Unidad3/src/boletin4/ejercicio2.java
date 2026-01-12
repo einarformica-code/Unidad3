@@ -23,7 +23,7 @@ public class ejercicio2 {
 	public static void main(String[] args) {
 		//Creamos arrays con varios elementos.
 		int resultado=0;
-		int tabla[]= {1, 2 ,3, 6, 7 , 8 , 18} ;
+		int tabla[]= {1, 2 ,3, 255, 7 , 8 , 18} ;
 		
 		resultado= BuscarMayor(tabla);
 		
