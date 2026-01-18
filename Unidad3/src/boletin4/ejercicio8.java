@@ -37,6 +37,7 @@ public class ejercicio8 {
 		array[2][1]=8 ;
 		array[2][2]=9 ;
 		
+		System.out.println("Matriz original");
 
 		for(int filas=0; filas<array.length; filas++) {
 			
@@ -45,6 +46,8 @@ public class ejercicio8 {
 			}
 			System.out.println();
 		}
+		
+		System.out.println("Matriz Revertida");
 		
 		System.out.println(Arrays.deepToString(arrayReverso(array)));
 
